@@ -200,6 +200,7 @@ if __name__ == "__main__":
     #     name='superAdmin',
     #     auths='0'
     # )
+    #插入admin
     from werkzeug.security import generate_password_hash#密码加密
     admin=Admin(
         name="cws",
